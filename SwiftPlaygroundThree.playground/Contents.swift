@@ -7,7 +7,7 @@ var fruitNames: [String]
 //var numbers: [Int]
 
 //Part 4
-//3 distinct strings in fruitNames array
+//3 distinct strings in fruitNames array literal
 fruitNames = ["Kiwi", "Apple", "Watermelon"]
 
 //Part 5: print function
@@ -24,4 +24,23 @@ for name in fruitNames{
 //Part 8 : Introduction to array indexes
 print(fruitNames[1])
 
-//Part 9: 
+//Part 9: Problem Set #1
+//part 1
+//Declare and assign an array
+var expensiveCars: [String]
+//8 items of string that name the most expensive cars
+expensiveCars = ["Pagani Huayra Imola ", "Bugatti Divo ", "Pagani Huayra Codalunga ", "Bugatti Centodieci " , "Rolls-Royce Sweptail ", "Pagani Zonda HP Barchetta ", "Bugatti La Voiture Noire ", "Rolls-Royce Boat Tail "]
+
+//part 2
+//use the for-in syntax to iterate through the array and print
+for name in expensiveCars{
+    print(name + "is a very expensive car")
+}
+
+//part 3
+//print out the item at index 0
+print(expensiveCars[0])
+
+
+
+
